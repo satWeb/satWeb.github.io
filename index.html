@@ -1,1 +1,212 @@
-Hello statWeb!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>周六web开发培训</title>
+</head>
+<style>
+body {width: 100%;margin:0;padding:0;color:#333;font-family: "微软雅黑"}
+div,p,ul,li{margin:0;padding:0;}
+ul,li{list-style: none;}
+img{vertical-align: middle;border:0 none;}
+a:active{outline: 0}
+#header {
+	height: 90px;
+	line-height: 90px;
+	background-color: #231F20;
+}
+#logo{margin-left:30px;}
+#nav {float: right;margin-right: 30px;height:100%;}
+#nav ul li{float: left;}
+#nav a{color:#fff;font-size: 24px;display: inline-block;padding:0 10px;text-decoration: none}
+.slide-bg{width:100%;}
+#wel-satweb, #learn,#from,#others{padding: 0 30px;}
+#wel-satweb{background: #f4f4f4;padding-bottom:80px;}
+.s-title{font-size: 32px;color:#40b0ab;margin:0;font-weight: normal;margin-bottom: 10px}
+section header{text-align: center;padding-top: 80px}
+.s-label{font-size: 14px;color:#868686;}
+article.study-item{position: relative;background: #fff;height:302px;}
+.stu-icon{position: absolute;height:120px;width:120px;left:50%;margin-left: -60px;top:0;}
+.stu-icon{background: url(static/img/icons.png) no-repeat;}
+.stu-icon-smile{background-position: 0 0}
+.stu-icon-brain{background-position: -302px 0}
+.stu-icon-share-red{background-position: -604px 0}
+.stu-icon-share-blue{background-position: -904px 0}
+.s-list {
+	margin-top: 110px;
+	-moz-column-count:4;
+	-webkit-column-count:4;
+	column-count:4;
+	-moz-column-gap:26px;
+	-webkit-column-gap:26px;
+	column-gap:26px;
+}
+.o-list {
+	-moz-column-count:3;
+	-webkit-column-count:3;
+	column-count:3;
+	-moz-column-gap:30px;
+	-webkit-column-gap:30px;
+	column-gap:30px;
+}
+.white-fix{background: #f4f4f4;position: absolute;left:0;top:0;width:100%;height:60px;}
+#learn{background-color: #EDEAE9;padding-bottom: 72px;}
+.learn-item{height:263px;background: #fff;border-bottom: 2px solid #40B0AB}
+.l-item-bg{background-color:#363636;width:100%;height:160px}
+.l-item-main{height: 102px;text-align: center;font-family: Arial}
+.l-item-title{padding-top: 20px;color: #575757;font-size: 16px}
+.l-item-content{color: #9A9A9A;font-size: 12px}
+#from{background:#f4f4f4;}
+#go{background-color:#EDEAE9;height: 100px;line-height: 100px;position: relative;}
+.go-content{position: relative;left:50%;display: inline-block;}
+.go-label{display: inline-block;font-size: 18px;color:#272727;}
+.go-content button{padding:9px 17px;color:#fff;box-shadow: 0 2px #92B655;background-color:#B1D568;border:0 none;margin-left: 100px;cursor: pointer;}
+.go-content button:focus{border: 0 none;outline: none}
+#others{padding-top:50px;padding-bottom: 50px}
+.o-item {height:390px;background-color:#2F2F2F;}
+</style>
+<body>
+	<header id="header">
+		<a href="/" id="logo"><img src="static/img/logo.png" alt=""></a>
+		<nav id="nav">
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">培训</a></li>
+				<li><a href="#">关于我们</a></li>
+				<li><a href="#">联系方式</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="slide">
+		<img src="static/img/bg.png" alt="satweb-slide" class="slide-bg">
+	</section>
+	<section id="wel-satweb">
+		<header>
+			<h1 class="s-title">欢迎来到星期六俱乐部</h1>
+			<span class="s-label">简单实用就是最好的，分享经验就是贴实际的</span>
+		</header>
+		<div class="s-list">
+			<article class="study-item">
+				<div class="white-fix"></div>
+				<span class="stu-icon stu-icon-smile"></span>
+			</article>
+			<article class="study-item">
+				<div class="white-fix"></div>
+				<span class="stu-icon stu-icon-brain"></span>
+			</article>
+			<article class="study-item">
+				<div class="white-fix"></div>
+				<span class="stu-icon stu-icon-share-red"></span>
+			</article>
+			<article class="study-item">
+				<div class="white-fix"></div>
+				<span class="stu-icon stu-icon-share-blue"></span>
+			</article>
+		</div>
+	</section>
+	<section id="learn">
+		<header>
+			<h1 class="s-title">在这里你能学到什么？</h1>
+			<span class="s-label">HTML CSS 布局 PHP+MYSQL 移动web开发… </span>
+			<div class="s-list">
+				<article class="learn-item">
+					<div class="l-item-bg">
+						<div class="l-icon l-icon-html"></div>
+					</div>
+					<div class="l-item-main">
+						<div class="l-item-title">HTML入门</div>
+						<div class="l-item-content">HTML new learner</div>
+					</div>
+				</article>
+				<article class="learn-item">
+					<div class="l-item-bg">
+						<div class="l-icon l-icon-html"></div>
+					</div>
+					<div class="l-item-main">
+						<div class="l-item-title">HTML入门</div>
+						<div class="l-item-content">HTML new learner</div>
+					</div>
+				</article>
+				<article class="learn-item">
+					<div class="l-item-bg">
+						<div class="l-icon l-icon-html"></div>
+					</div>
+					<div class="l-item-main">
+						<div class="l-item-title">HTML入门</div>
+						<div class="l-item-content">HTML new learner</div>
+					</div>
+				</article>
+				<article class="learn-item">
+					<div class="l-item-bg">
+						<div class="l-icon l-icon-html"></div>
+					</div>
+					<div class="l-item-main">
+						<div class="l-item-title">HTML入门</div>
+						<div class="l-item-content">HTML new learner</div>
+					</div>
+				</article>
+			</div>
+			<div class="s-list" style="margin-top:50px">
+				<article class="learn-item">
+					<div class="l-item-bg">
+						<div class="l-icon l-icon-html"></div>
+					</div>
+					<div class="l-item-main">
+						<div class="l-item-title">HTML入门</div>
+						<div class="l-item-content">HTML new learner</div>
+					</div>
+				</article>
+				<article class="learn-item">
+					<div class="l-item-bg">
+						<div class="l-icon l-icon-html"></div>
+					</div>
+					<div class="l-item-main">
+						<div class="l-item-title">HTML入门</div>
+						<div class="l-item-content">HTML new learner</div>
+					</div>
+				</article>
+				<article class="learn-item">
+					<div class="l-item-bg">
+						<div class="l-icon l-icon-html"></div>
+					</div>
+					<div class="l-item-main">
+						<div class="l-item-title">HTML入门</div>
+						<div class="l-item-content">HTML new learner</div>
+					</div>
+				</article>
+				<article class="learn-item">
+					<div class="l-item-bg">
+						<div class="l-icon l-icon-html"></div>
+					</div>
+					<div class="l-item-main">
+						<div class="l-item-title">HTML入门</div>
+						<div class="l-item-content">HTML new learner</div>
+					</div>
+				</article>
+			</div>
+		</header>
+	</section>
+	<section id="from">
+		<header>
+			<h1 class="s-title">我们来自哪里，我们做过什么？</h1>
+			<span class="s-label">...</span>
+		</header>
+	</section>
+	<section id="go">
+		<div class="go-content">
+			<div class="go-label">I'd like to study</div>
+			<button>我想要学</button>
+		</div>
+	</section>
+	<section id="others">
+		<div class="o-list">
+			<article class="o-item">	
+			</article>
+			<article class="o-item">	
+			</article>
+			<article class="o-item">	
+			</article>
+		</div>
+	</section>
+</body>
+</html>
