@@ -27,7 +27,7 @@
 6. 在上面情况下应该销毁变量？
 7. 适当的缩进（借助编辑器）
 8. 该在上面时候换行？（函数调用、逻辑表达式、字符串拼接）
-9. 空格应该加载哪些地方？（做一个有洁癖的coder）
+9. 空格应该加在哪些地方？（做一个有洁癖的coder）
 10. 大括号什么时候可以省略？
 11. `==`和`===`怎么取舍？
 12. `try-catch`的应用
@@ -37,7 +37,7 @@
 **2、基础巩固（心平气和、基础书多翻翻）**
 
 1. 变量的几种类型；特殊的值：`undefined`、`NaN`、`null`、0、''、`false`。==和===的用法
-2.`typeof`的返回值区别：`string`, `number`, object`, `function`, `boolean`, `undefined`
+2. `typeof`的返回值区别：`string`, `number`, object`, `function`, `boolean`, `undefined`
 3. 控制结构：for/for-in/while/do-while/try-catch
 4. 三元运算符真正的用法？、变量的默认值。
 5. 函数的声明方式、形参、实参、返回值(可以返回任意类型的数据：object/function/...)、调用方法
