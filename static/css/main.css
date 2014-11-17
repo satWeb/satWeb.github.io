@@ -60,6 +60,7 @@ h3 {
 #banner {
     position: relative;
     height: 550px;
+    background: url(../images/banner.jpg) repeat-x;
 }
 #banner .flash {
     position: relative;
@@ -260,6 +261,7 @@ h3 {
     position: relative;
     overflow: hidden;
     margin-top: 60px;
+    padding: 0 2px;
 }
 .ours-list ul {
     width: 1500px;
@@ -270,7 +272,7 @@ h3 {
     width: 218px;
     height: 122px;
     background: #1CBC90;
-    margin-right: 20px;
+    margin-right: 19px;
     border-radius: 4px;
     overflow: hidden;
 }
@@ -302,6 +304,10 @@ h3 {
     background: #b1d568;
     line-height: 42px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.section-enter .enter:hover{
+    box-shadow: none;
+    transform: translate(2px, 2px);
 }
 
 .section3 {
