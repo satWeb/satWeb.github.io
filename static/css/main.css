@@ -407,3 +407,16 @@ h3 {
     height: 100px;
     background: #252525;
 }
+
+.ours-info {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    line-height: 28px;
+}
+.bdshare-button-style1-16 {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
