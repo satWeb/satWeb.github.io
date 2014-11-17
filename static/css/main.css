@@ -200,28 +200,28 @@ h3 {
 .study-section-icon1 {
     position: relative;
     height: 160px;
-    background: #363636;
+    background: url(../images/html.css.jpg);
 }
 .study-section-icon2 {
-    background: #1cbc90;
+    background: url(../images/javascript.jpg);
 }
 .study-section-icon3 {
-    background: #eb806e;
+    background: url(../images/mobile.png) center #eb806e;
 }
 .study-section-icon4 {
-    background: #b6d5e0;
+    background: url(../images/html5.fw.png) center #B6D5E0;
 }
 .study-section-icon5 {
-    background: #f9c138;
+    background: url(../images/grunt.jpg) #f9c138;
 }
 .study-section-icon6 {
     background: #a7b196;
 }
 .study-section-icon7 {
-    background: #eeeeee;
+    background: #1CBC90;
 }
 .study-section-icon8 {
-    background: #1cbc90;
+    background: url(../images/progrom.jpg) #eee;
 }
 .btn-icon1 {
     position: absolute;
