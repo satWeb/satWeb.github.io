@@ -143,23 +143,26 @@ h3 {
     position: absolute;
     left: 80px;
     top: 0;
-    width: 102px;
+    width: 101px;
     height: 101px;
     border: 10px solid #f4f4f4;
     border-radius: 100%;
-    background: url(../images/fed.jpg);
+    background-image: url(../images/fed.jpg);
+    background-position:  center center;
+    transform-origin:50% 50%;
+    transition: all 1s;
 }
 .section-container-show-icon:hover{
-
+    transform: rotate(360deg);
 }
 .section-container-show-icon2 {
-    background: url(../images/bed.jpg);
+    background-image: url(../images/bed.jpg);
 }
 .section-container-show-icon3 {
-    background: url(../images/jiagou.jpg);
+    background-image: url(../images/jiagou.jpg);
 }
 .section-container-show-icon4 {
-    background: url(../images/gongzuoliu.jpg);
+    background-image: url(../images/gongzuoliu.jpg);
 }
 
 .study-section {
