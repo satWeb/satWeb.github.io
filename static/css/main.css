@@ -257,15 +257,27 @@ h3 {
 }
 
 .ours-list {
+    position: relative;
+    overflow: hidden;
     margin-top: 60px;
+}
+.ours-list ul {
+    width: 1500px;
 }
 .ours-list li {
     position: relative;
     float: left;
-    width: 240px;
-    height: 240px;
+    width: 218px;
+    height: 122px;
+    background: #1CBC90;
+    margin-right: 20px;
+    border-radius: 4px;
+    overflow: hidden;
 }
-
+.ours-list li img {
+    width: 100%;
+    height: 100%;
+}
 .section-enter {
     position: relative;
     width: 1170px;
