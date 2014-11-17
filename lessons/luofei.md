@@ -1,7 +1,9 @@
-###周六web开发俱乐部前端课程大纲
-
-**中级前端课程：Javascript高级编程**
--------------------------
+---
+layout: post 
+title:  "中级前端课程：Javascript高级编程"
+date:   2014-11-17 19:10:43
+categories: lessons
+---
 
 ####**一、课程介绍**
 
@@ -63,9 +65,9 @@
 1. this === window？
 2. 函数中的this指向谁？
 
-```javascript
+{%highlight javascript%}
 function Test() {
-  console.log(this);
+      console.log(this);
 }
 
 Test(); // this=?
@@ -73,7 +75,7 @@ new Test(); // this=?
 
 var obj = {a: 'hello world!'};
 Test.call(obj); // this=?
-```
+{%endhighlight%}
 
 **5、对象（Everything is Object）**
 
