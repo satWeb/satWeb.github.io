@@ -345,6 +345,15 @@ h3 {
     margin-right: 12px;
     margin-bottom: 14px;
     border-radius: 2px;
+	overflow:hidden
+}
+.section3-box-photo li a {
+	display:block;
+}
+.section3-box-photo li img {
+	display:block;
+	width:100%;
+	height:100%;
 }
 
 .section3-box-news {
