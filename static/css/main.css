@@ -60,7 +60,7 @@ h3 {
 #banner {
     position: relative;
     height: 550px;
-    background: url(../images/banner.jpg) repeat-x;
+    background: url(../images/banner.jpg) no-repeat center #1a3958;
 }
 #banner .flash {
     position: relative;
