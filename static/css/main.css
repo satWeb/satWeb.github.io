@@ -438,3 +438,11 @@ h3 {
     width: 300px;
     margin: 0 auto;
 }
+.ours-content {
+    position: relative;
+    padding: 25px;
+    margin-top: 10px;
+    color: #6E727A;
+    font-size: 14px;
+    line-height: 28px;
+}
