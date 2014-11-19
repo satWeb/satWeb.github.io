@@ -1,0 +1,10 @@
+# Site settings
+title: 周六web开发培训
+email: luofeihit2010@gmail.com
+description: ''
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://satweb.github.io/" # the base hostname & protocol for your site
+ASSET_PATH: ''
+
+# Build settings
+markdown: rdiscount 
