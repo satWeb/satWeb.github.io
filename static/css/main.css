@@ -350,7 +350,6 @@ h3 {
 }
 .section3-box-photo {
     position: relative;
-    margin-top: 30px;
     padding: 30px;
     padding-bottom: 20px;
 }
@@ -380,7 +379,7 @@ h3 {
 
 .section3-box-news {
     position: relative;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .section3-box-news .noborder {
     border-bottom: none;
@@ -420,6 +419,10 @@ h3 {
     color: #6E727A;
     padding-left: 28px;
 }
+.section3-box-phone .share {
+    margin-top: 10px;
+    font-size: 18px;
+}
 .footer {
     position: relative;
     height: 100px;
@@ -441,8 +444,10 @@ h3 {
 .ours-content {
     position: relative;
     padding: 25px;
-    margin-top: 10px;
     color: #6E727A;
-    font-size: 14px;
-    line-height: 28px;
+    font-size: 12px;
+    line-height: 22px;
+}
+.ours-content .qunhao {
+    color: #4AAAA5;
 }
