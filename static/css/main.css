@@ -11,6 +11,7 @@ img { border:none; display:block}
 
 body {
     font-family:"microsoft yahei";
+    min-width: 1200px;
 }
 h3 {
     cursor: pointer;
