@@ -414,6 +414,11 @@ h3 {
     display: block;
     color: #4276ac;
 }
+.section3-news-items a:hover {
+    color: #A1A6AF;
+    text-decoration: underline;
+}
+
 .section3-news-items p {
     display: block;
     color: #999;
