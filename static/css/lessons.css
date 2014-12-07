@@ -112,3 +112,32 @@ body {
 #ds-reset a {
 	display: inline;
 }
+
+.site-lessons-link {
+	position: relative;
+	padding-top: 15px;
+	margin-top: 15px;
+	border-top: 1px solid #e8e8e8;
+}
+.site-lessons-link h4 {
+	color: #424242;
+	font-size: 26px;
+}
+.site-lessons-link .link{
+	padding-top: 5px;
+}
+.site-lessons-link .link a {
+	display: inline;
+	font-size: 14px;
+	margin-right: 5px;
+	color: #424242
+}
+.site-lessons-link .link a:hover {
+	color: #d91819
+}
+.site-lessons-link .webinfo {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 14px;
+}
