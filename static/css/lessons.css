@@ -109,3 +109,6 @@ body {
 .ds-container a {
 	display: inline;
 }
+#ds-reset a {
+	display: inline;
+}
