@@ -18,6 +18,7 @@ img { border:none; display:block}
 body {
     font-family:"microsoft yahei";
     min-width: 1200px;
+    background: #fdfdfd
 }
 
 .site-header {
@@ -36,6 +37,10 @@ body {
 .site-header h1 a {
 	color: #424242;
 	font-size: 26px;
+}
+.site-header h1 span {
+	font-size: 18px;
+	float: right;
 }
 
 .site-lessons {
